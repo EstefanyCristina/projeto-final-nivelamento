@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliação 16-07-2020</title>
+</head>
+<body>
+    
+    <script>
+
+        alert("Seja bem-vindo a minha avaliação!");
+        var nome = prompt("Diga-me seu nome:");
+        alert("Ok, " + nome + ", vamos começar!")
+
+        var n1 = parseInt(prompt('Digite um número'));
+        var n2 = parseInt(prompt('Digite outro número'));
+        var n3 = parseInt(prompt('Digite mais número'));
+        var n4 = parseInt(prompt('Tá quase acabando, digite mais um número'));
+        var n5 = parseInt(prompt('Sério, esse é o último!'));
+        
+        document.write(nome + ", você digitou os seguintes números: " + "<br>" + "<br>")
+       
+//Tentei fazer usando Switch, mas só rodava a primeir parte (n1)//
+    if(n1 % 2 == 0){
+        document.write(n1 + " Este número é par " + "<br>")
+    }else {
+        document.write(n1 + " Este número é impar " + "<br>")
+    }
+    if(n2 % 2 == 0){
+        document.write(n2 + " Este número é par " + "<br>")
+    }else {
+        document.write(n2   + " Este número é impar " + "<br>")
+    }
+    if(n3 % 2 == 0){
+        document.write(n3 + " Este número é par " + "<br>")
+    }else {
+        document.write(n3 + " Este número é impar " + "<br>")
+    }
+    if(n4 % 2 == 0){
+        document.write(n4 + " Este número é par " + "<br>")
+    }else {
+        document.write(n4 + " Este número é impar " + "<br>")
+    }
+    if(n5 % 2 == 0){
+        document.write(n5 + " Este número é par " + "<br>")
+    }else {
+        document.write(n5 + " Este número é impar " + "<br>" + "<br>")
+    }
+
+    document.write("O menor número é o " + Math.min(n1,n2,n3,n4,n5) + "<br>")
+    document.write("O maior número é o " + Math.max(n1,n2,n3,n4,n5) + "<br>" + "<br>")
+
+
+    //Não consegui achar um jeito de dizer quais os números repetidos e quantas vezes se repertem//
+    </script>
+</body>
+</html>
