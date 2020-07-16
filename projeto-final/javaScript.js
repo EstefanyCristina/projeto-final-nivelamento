@@ -11,8 +11,8 @@
 
 var site = prompt('Digite aqui seu site');
 const site = "http://www.facebook.com/estefany.s.way"
-// Na variável é possível inserir qualqur valor que se queira, 
-// tanto quem está programando quando o usuário pode fazer alterações 
+// Na variável é possível inserir qualquer valor que se queira, 
+// tanto quem está programando quanto o usuário pode fazer alterações 
 //na variável quando quiser.
 //Já a constante ficará com o mesmo valor sempre.
 //______________________________________________________________________________________
